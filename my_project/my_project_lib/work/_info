@@ -1,0 +1,64 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\HDS\my_project\my_project_lib\work
+T_opt
+V>HAaAI5kIIo:2E^Ch;2mK0
+014 2 3 my_project_lib vm rtl 0
+=1-8c1645e8bca8-5cd7eb7c-ed-4588
+o-quiet +acc -auto_acc_if_foreign -work my_project_lib -L my_project_lib
+Z1 tExplicit 1
+OE;O;6.3a;37
+Evending_machine
+Z2 w1557654748
+Z3 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z4 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8C:/HDS/my_project/my_project_lib/hdl/Vending_machine_rtl.vhdl
+Z6 FC:/HDS/my_project/my_project_lib/hdl/Vending_machine_rtl.vhdl
+l0
+L14
+V9gfma4bBTOgTIk5>2iM@U2
+Z7 OE;C;6.3a;37
+31
+Z8 o-work my_project_lib -nologo -93
+R1
+Artl
+R3
+R4
+DE work vending_machine 9gfma4bBTOgTIk5>2iM@U2
+l31
+L25
+VANKKXEoj@WTa<?4kT33H:3
+R7
+31
+Z9 M2 ieee std_logic_1164
+Z10 M1 ieee std_logic_arith
+R8
+R1
+Evm
+Z11 w1557654369
+R3
+R4
+Z12 8C:/HDS/my_project/my_project_lib/hdl/VM_rtl.vhdl
+Z13 FC:/HDS/my_project/my_project_lib/hdl/VM_rtl.vhdl
+l0
+L14
+VMh2h@hZTGMl39iN7VDz1V1
+R7
+31
+R8
+R1
+Artl
+R3
+R4
+DE work vm Mh2h@hZTGMl39iN7VDz1V1
+l31
+L25
+VJhTm^2CCglejozSKdQoRX1
+R7
+31
+R9
+R10
+R8
+R1

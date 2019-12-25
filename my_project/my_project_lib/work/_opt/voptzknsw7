@@ -1,0 +1,38 @@
+m255
+K3
+13
+Z0 cModel Technology
+Z1 dC:\HDS\my_project\my_project_lib\work
+T_opt
+Z2 V>HAaAI5kIIo:2E^Ch;2mK0
+Z3 014 2 3 my_project_lib vm rtl 0
+Z4 =1-8c1645e8bca8-5cd7eb7c-ed-4588
+Z5 o-quiet +acc -auto_acc_if_foreign -work my_project_lib -L my_project_lib
+Z6 tExplicit 1
+Z7 OE;O;6.3a;37
+Evm
+Z8 w1557654369
+Z9 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z10 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+Z11 8C:/HDS/my_project/my_project_lib/hdl/VM_rtl.vhdl
+Z12 FC:/HDS/my_project/my_project_lib/hdl/VM_rtl.vhdl
+l0
+L14
+Z13 VMh2h@hZTGMl39iN7VDz1V1
+Z14 OE;C;6.3a;37
+Z15 o-work my_project_lib -nologo -93
+R6
+Artl
+R9
+R10
+DE my_project_lib vm Mh2h@hZTGMl39iN7VDz1V1
+31
+Z16 M2 ieee std_logic_1164
+Z17 M1 ieee std_logic_arith
+l31
+L25
+Z18 VJhTm^2CCglejozSKdQoRX1
+R14
+R15
+R6

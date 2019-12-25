@@ -1,0 +1,77 @@
+# //  ModelSim SE 6.3a Jun 25 2007 
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L my_project_lib -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/FPGAdv81PS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli C:/FPGAdv81PS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll my_project_lib.VM(rtl) 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading C:/FPGAdv81PS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.vm(rtl)
+force -freeze sim:/vm/item 11 0
+force -freeze sim:/vm/clk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/vm/cash 00000111 0
+force -freeze sim:/vm/item2stock 00000001 0
+force -freeze sim:/vm/item1stock 00000000 0
+force -freeze sim:/vm/item3stock 00000000 0
+run
+# ** Fatal: (vsim-3738) Array length is 19; string literal length is 16.
+#    Time: 100 ns  Iteration: 0  Process: /vm/line__32 File: C:/HDS/my_project/my_project_lib/hdl/VM_rtl.vhdl
+# Fatal error in Process line__32 at C:/HDS/my_project/my_project_lib/hdl/VM_rtl.vhdl line 73
+# 
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+noforce sim:/vm/cash
+run
+# Cannot continue because of fatal error.
+force -freeze sim:/vm/item 10 0
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
